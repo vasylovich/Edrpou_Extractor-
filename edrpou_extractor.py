@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*- 
 import HTMLParser
 import xml.etree.ElementTree as ET
+import pandas as pd 
 import html
 import codecs
 file_path = 'short_UO.xml'
@@ -150,10 +151,6 @@ for event, elem in context:
             
 print('Done!')
 
-
-
-import pandas as pd 
-import xml.etree.ElementTree as et 
 
 
 xtree = et.parse("group_7.xml")
